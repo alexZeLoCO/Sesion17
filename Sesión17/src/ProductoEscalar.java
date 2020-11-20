@@ -1,6 +1,11 @@
 import java.util.Scanner;		//IMPORTA SCANNER
 public class ProductoEscalar {
-
+	/**
+	 * 
+	 * @param teclado
+	 * @param tamaño
+	 * @return vector formado con el tamaño pasado como @param y los valores dados por el usuario.
+	 */
 	public static int[] LeeVector (Scanner teclado, int tamaño) {
 		
 		int [] vector = new int [tamaño];		//CREA VECTOR
